@@ -19,7 +19,7 @@ def main():
         patad = input("Enter your Bet(give space on each numbers): ")
         patad = list(map(int, patad.split()))
         
-        resulta = random.sample(range(1, 10), 3)
+        resulta = random.sample(range(2, 5), 3)
         
         print(f"Lottery resulta: {' '.join(map(str, resulta))}")
         
